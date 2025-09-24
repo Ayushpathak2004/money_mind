@@ -9,7 +9,7 @@ export function Layout({ children }) {
   return (
     <div className="min-h-screen bg-background">
       <div className="flex min-h-screen">
-        {/* Sidebar */}
+        
         {/* Desktop sidebar */}
         <aside className="hidden md:block w-64 bg-white dark:bg-gray-800 border-r">
           <Sidebar />
